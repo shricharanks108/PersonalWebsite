@@ -22,11 +22,7 @@ function ProjectLanguages(props) {
                   className="software-skill-inline-languages"
                   name={logo.skillName}
                 >
-                  <span
-                    className="iconify"
-                    data-icon={logo.iconifyClass}
-                    data-inline="false"
-                  ></span>
+                  {logo.img}
                 </li>
               </OverlayTrigger>
             );

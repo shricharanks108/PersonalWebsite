@@ -1,6 +1,34 @@
 /* Change this file to get your personal Porfolio */
 import { SiJavascript } from 'react-icons/si'
 import { SiCss3 } from 'react-icons/si'
+import { SiHtml5 } from 'react-icons/si'
+import { SiPhp } from 'react-icons/si'
+import { SiReact } from 'react-icons/si'
+import { SiNodedotjs } from 'react-icons/si'
+import { SiNpm } from 'react-icons/si'
+import { SiMongodb } from 'react-icons/si'
+import { SiGraphql } from 'react-icons/si'
+import { SiAndroid } from 'react-icons/si'
+import { SiJava } from 'react-icons/si'
+import { SiFlutter } from 'react-icons/si'
+import { SiDart } from 'react-icons/si'
+import { SiMysql } from 'react-icons/si'
+import { SiJquery } from 'react-icons/si'
+import { SiWordpress } from 'react-icons/si'
+import { SiApache } from 'react-icons/si'
+import { SiGit } from 'react-icons/si'
+import { SiC } from 'react-icons/si'
+import { SiCplusplus } from 'react-icons/si'
+import { SiCsharp } from 'react-icons/si'
+import { SiAmazonaws } from 'react-icons/si'
+import { SiNetlify } from 'react-icons/si'
+import { SiHeroku } from 'react-icons/si'
+import { SiFirebase } from 'react-icons/si'
+import { SiPostgresql } from 'react-icons/si'
+import { SiDocker } from 'react-icons/si'
+import { SiGithubactions } from 'react-icons/si'
+import { SiPython } from 'react-icons/si'
+import { SiTypescript } from 'react-icons/si'
 
 // Website related settings
 const settings = {
@@ -47,13 +75,13 @@ const skills = {
         "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
       ],
       softwareSkills: [
-        // {
-        //   skillName: "HTML5",
-        //   fontAwesomeClassname: "simple-icons:html5",
-        //   style: {
-        //     color: "#E34F26",
-        //   },
-        // },
+        {
+          skillName: "HTML5",
+          img:  < SiHtml5 />,
+          style: {
+            color: "#E34F26",
+          },
+        },
         {
           skillName: "CSS3",
           img: < SiCss3 />,
@@ -69,139 +97,139 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        // {
-        //   skillName: "PHP",
-        //   fontAwesomeClassname: "simple-icons:php",
-        //   style: {
-        //     color: "#7377AD",
-        //   },
-        // },
-        // {
-        //   skillName: "ReactJS",
-        //   fontAwesomeClassname: "simple-icons:react",
-        //   style: {
-        //     color: "#61DAFB",
-        //   },
-        // },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "NPM",
-        //   fontAwesomeClassname: "simple-icons:npm",
-        //   style: {
-        //     color: "#CB3837",
-        //   },
-        // },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#439743",
-        //   },
-        // },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Android",
-        //   fontAwesomeClassname: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
-        // {
-        //   skillName: "Java",
-        //   fontAwesomeClassname: "simple-icons:java",
-        //   style: {
-        //     color: "#f89820",
-        //   },
-        // },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
-        // {
-        //   skillName: "MySQL",
-        //   fontAwesomeClassname: "simple-icons:mysql",
-        //   style: {
-        //     color: "#4479A1",
-        //   },
-        // },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
-        // {
-        //   skillName: "Git",
-        //   fontAwesomeClassname: "simple-icons:git",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   skillName: "C",
-        //   fontAwesomeClassname: "simple-icons:c",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   skillName: "C++",
-        //   fontAwesomeClassname: "simple-icons:cplusplus",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   skillName: "Python",
-        //   fontAwesomeClassname: "simple-icons:python",
-        //   style: {
-        //     color: "#3776AB",
-        //   },
-        // },
+        {
+          skillName: "PHP",
+          img: < SiPhp />,
+          style: {
+            color: "#7377AD",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          img: < SiReact />,
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          img: < SiNodedotjs />,
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          img: < SiNpm />,
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          img: < SiMongodb />,
+          style: {
+            color: "#439743",
+          },
+        },
+        {
+          skillName: "GraphQL",
+          img: < SiGraphql />,
+          style: {
+            color: "#DE33A6",
+          },
+        },
+        {
+          skillName: "Android",
+          img: < SiAndroid />,
+          style: {
+            color: "#3DDC84",
+          },
+        },
+        {
+          skillName: "Java",
+          img: < SiJava />,
+          style: {
+            color: "#f89820",
+          },
+        },
+        {
+          skillName: "Flutter",
+          img: < SiFlutter />,
+          style: {
+            color: "#02569B",
+          },
+        },
+        {
+          skillName: "Dart",
+          img: < SiDart />,
+          style: {
+            color: "#29B0EE",
+          },
+        },
+        {
+          skillName: "MySQL",
+          img: < SiMysql />,
+          style: {
+            color: "#4479A1",
+          },
+        },
+        {
+          skillName: "jQuery",
+          img: < SiJquery />,
+          style: {
+            color: "#0865A6",
+          },
+        },
+        {
+          skillName: "Wordpress",
+          img: < SiWordpress />,
+          style: {
+            color: "#207297",
+          },
+        },
+        {
+          skillName: "Apache",
+          img: < SiApache />,
+          style: {
+            color: "#CA1A22",
+          },
+        },
+        {
+          skillName: "Git",
+          img: < SiGit />,
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "C",
+          img: < SiC />,
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "C++",
+          img: < SiCplusplus />,
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "C#",
+          img: < SiCsharp />,
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Python",
+          img: < SiPython />,
+          style: {
+            color: "#3776AB",
+          },
+        },
       ],
     },
     {
@@ -213,62 +241,69 @@ const skills = {
         "⚡ Experience with Continuous Integration",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "AWS",
-        //   fontAwesomeClassname: "simple-icons:amazonaws",
-        //   style: {
-        //     color: "#FF9900",
-        //   },
-        // },
-        // {
-        //   skillName: "Netlify",
-        //   fontAwesomeClassname: "simple-icons:netlify",
-        //   style: {
-        //     color: "#38AFBB",
-        //   },
-        // },
-        // {
-        //   skillName: "Heroku",
-        //   fontAwesomeClassname: "simple-icons:heroku",
-        //   style: {
-        //     color: "#6863A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
-        // {
-        //   skillName: "PostgreSQL",
-        //   fontAwesomeClassname: "simple-icons:postgresql",
-        //   style: {
-        //     color: "#336791",
-        //   },
-        // },
-        // {
-        //   skillName: "MongoDB",
-        //   fontAwesomeClassname: "simple-icons:mongodb",
-        //   style: {
-        //     color: "#47A248",
-        //   },
-        // },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
-        // {
-        //   skillName: "GitHub Actions",
-        //   fontAwesomeClassname: "simple-icons:githubactions",
-        //   style: {
-        //     color: "#5b77ef",
-        //   },
-        // },
+        {
+          skillName: "AWS",
+          img: < SiAmazonaws />,
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Netlify",
+          img: < SiNetlify />,
+          style: {
+            color: "#38AFBB",
+          },
+        },
+        {
+          skillName: "Heroku",
+          img: < SiHeroku />,
+          style: {
+            color: "#6863A6",
+          },
+        },
+        {
+          skillName: "Firebase",
+          img: < SiFirebase />,
+          style: {
+            color: "#FFCA28",
+          },
+        },
+        {
+          skillName: "PostgreSQL",
+          img: < SiPostgresql />,
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MySQL",
+          img: < SiMysql />,
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          img: < SiMongodb />,
+          style: {
+            color: "#47A248",
+          },
+        },
+        {
+          skillName: "Docker",
+          img: < SiDocker />,
+          style: {
+            color: "#1488C6",
+          },
+        },
+        {
+          skillName: "GitHub Actions",
+          img: < SiGithubactions />,
+          style: {
+            color: "#5b77ef",
+          },
+        },
       ],
     },
   ],
@@ -538,7 +573,7 @@ const projects = {
       languages: [
         {
           name: "Python",
-          iconifyClass: "logos-python",
+          img: < SiPython />,
         },
       ],
     },
@@ -551,19 +586,19 @@ const projects = {
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          img: < SiHtml5 />,
         },
         {
           name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          img: < SiCss3 />,
         },
         {
           name: "React",
-          iconifyClass: "logos-react",
+          img: < SiReact />,
         },
         {
           name: "Firebase",
-          iconifyClass: "logos-firebase",
+          img: < SiFirebase />,
         },
       ],
     },
@@ -576,11 +611,11 @@ const projects = {
       languages: [
         {
           name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          img: < SiNodedotjs />,
         },
         {
           name: "TypeScript",
-          iconifyClass: "logos-typescript",
+          img: < SiTypescript />,
         },
       ],
     },
@@ -593,19 +628,19 @@ const projects = {
       languages: [
         {
           name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
+          img: < SiHtml5 />,
         },
         {
           name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
+          img: < SiCss3 />,
         },
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "React",
+          img: < SiReact />,
         },
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Javascript",
+          img: < SiJavascript />,
         },
       ],
     },
@@ -617,17 +652,17 @@ const projects = {
         "A simple command line interface based quiz app to know more about me :).",
       languages: [
         {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "Javascript",
+          img: < SiJavascript />,
         },
         {
           name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          img: < SiNodedotjs />,
         },
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "node_express_crud_api_starter",
       url: "https://github.com/harikanani/node_express_crud_api_starter",
       description:
@@ -635,216 +670,11 @@ const projects = {
       languages: [
         {
           name: "NodeJS",
-          iconifyClass: "logos-nodejs",
+          img: < SiNodedotjs />,
         },
       ],
     },
-    {
-      id: "4",
-      name: "node-web-scrapper",
-      url: "https://github.com/harikanani/node-web-scrapper",
-      description:
-        "A Simple web scrapper that scrap the information of amazon products such as price.It also scrap Wikipedia Data such as birthdate.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "NodeJs",
-          iconifyClass: "logos-nodejs",
-        },
-      ],
-    },
-    {
-      id: "5",
-      name: "harikanani.github.io",
-      url: "https://github.com/harikanani/harikanani.github.io",
-      description:
-        "A Personal Portfolio Website that showcases my work and experience. which is hosted on Github Pages.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "SCSS",
-          iconifyClass: "vscode-icons:file-type-scss2",
-        },
-      ],
-    },
-    {
-      id: "6",
-      name: "Automate Attendace",
-      url: "https://github.com/harikanani/Node_Python",
-      description:
-        "Automation of Online Attendance using node js and python",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-      ],
-    },
-    {
-      id: "7",
-      name: "Automate Discord Bot",
-      url: "https://github.com/harikanani/AutomateDiscordBot",
-      description:
-        "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Python Selenium",
-          iconifyClass: "logos-selenium",
-        },
-        {
-          name: "Chromium Browser",
-          iconifyClass: "openmoji-chromium",
-        },
-      ],
-    },
-    {
-      id: "8",
-      name: "Flask Blog",
-      url: "https://github.com/harikanani/flask_blog",
-      description:
-        "A Simple Blog Web Application made using Flask Framework",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "cib-flask",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-      ],
-    },
-    {
-      id: "9",
-      name: "Netflix top series",
-      url: "https://github.com/harikanani/netflix-top-series",
-      description:
-        "List of Top Netflix Series which is deployed to vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "10",
-      name: "COVID-19 Tracker",
-      url: "https://github.com/harikanani/Covid19TrackerReact",
-      description: "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-      languages: [
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-      ],
-    },
-    {
-      id: "11",
-      name: "Food Order Static Website",
-      url: "https://github.com/harikanani/food-order-website",
-      description: "A simple static website related to food restaurants service. this is reasponsive as well.",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "PHP",
-          iconifyClass: "logos-php",
-        },
-      ],
-    },
-    {
-      id: "12",
-      name: "NFT Launchpad",
-      url: "https://deliquescent-cents.000webhostapp.com/",
-      description: "NFT Launchpad crypto site portfolio",
-      languages: [
-        {
-          name: "HTML5",
-          iconifyClass: "logos-html-5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "logos-css-3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
-      ],
-    },
+    
   ],
 };
 
