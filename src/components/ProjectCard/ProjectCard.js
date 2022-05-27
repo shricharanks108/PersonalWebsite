@@ -38,7 +38,7 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
-          <p className="repo-description" style={{ color: theme.text }}>
+          <p className="repo-description" style={{ color: theme.text }} >
             {repo.description}
           </p>
           <div className="repo-details">

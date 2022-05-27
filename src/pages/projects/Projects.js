@@ -63,7 +63,7 @@ function Projects(props) {
       <br />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
-  );
+  );  
 }
 
 export default Projects;
