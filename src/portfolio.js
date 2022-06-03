@@ -96,13 +96,13 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          img: < SiPhp />,
-          style: {
-            color: "#7377AD",
-          },
-        },
+        // {
+        //   skillName: "PHP",
+        //   img: < SiPhp />,
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
         {
           skillName: "ReactJS",
           img: < SiReact />,
@@ -117,13 +117,13 @@ const skills = {
             color: "#339933",
           },
         },
-        {
-          skillName: "NPM",
-          img: < SiNpm />,
-          style: {
-            color: "#CB3837",
-          },
-        },
+        // {
+        //   skillName: "NPM",
+        //   img: < SiNpm />,
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
         {
           skillName: "MongoDB",
           img: < SiMongodb />,
@@ -131,20 +131,20 @@ const skills = {
             color: "#439743",
           },
         },
-        {
-          skillName: "GraphQL",
-          img: < SiGraphql />,
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android",
-          img: < SiAndroid />,
-          style: {
-            color: "#3DDC84",
-          },
-        },
+        // {
+        //   skillName: "GraphQL",
+        //   img: < SiGraphql />,
+        //   style: {
+        //     color: "#DE33A6",
+        //   },
+        // },
+        // {
+        //   skillName: "Android",
+        //   img: < SiAndroid />,
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
         {
           skillName: "Java",
           img: < SiJava />,
@@ -152,20 +152,20 @@ const skills = {
             color: "#f89820",
           },
         },
-        {
-          skillName: "Flutter",
-          img: < SiFlutter />,
-          style: {
-            color: "#02569B",
-          },
-        },
-        {
-          skillName: "Dart",
-          img: < SiDart />,
-          style: {
-            color: "#29B0EE",
-          },
-        },
+        // {
+        //   skillName: "Flutter",
+        //   img: < SiFlutter />,
+        //   style: {
+        //     color: "#02569B",
+        //   },
+        // },
+        // {
+        //   skillName: "Dart",
+        //   img: < SiDart />,
+        //   style: {
+        //     color: "#29B0EE",
+        //   },
+        // },
         {
           skillName: "MySQL",
           img: < SiMysql />,
@@ -173,27 +173,27 @@ const skills = {
             color: "#4479A1",
           },
         },
-        {
-          skillName: "jQuery",
-          img: < SiJquery />,
-          style: {
-            color: "#0865A6",
-          },
-        },
-        {
-          skillName: "Wordpress",
-          img: < SiWordpress />,
-          style: {
-            color: "#207297",
-          },
-        },
-        {
-          skillName: "Apache",
-          img: < SiApache />,
-          style: {
-            color: "#CA1A22",
-          },
-        },
+        // {
+        //   skillName: "jQuery",
+        //   img: < SiJquery />,
+        //   style: {
+        //     color: "#0865A6",
+        //   },
+        // },
+        // {
+        //   skillName: "Wordpress",
+        //   img: < SiWordpress />,
+        //   style: {
+        //     color: "#207297",
+        //   },
+        // },
+        // {
+        //   skillName: "Apache",
+        //   img: < SiApache />,
+        //   style: {
+        //     color: "#CA1A22",
+        //   },
+        // },
         {
           skillName: "Git",
           img: < SiGit />,
@@ -201,13 +201,13 @@ const skills = {
             color: "#E94E32",
           },
         },
-        {
-          skillName: "C",
-          img: < SiC />,
-          style: {
-            color: "#E94E32",
-          },
-        },
+        // {
+        //   skillName: "C",
+        //   img: < SiC />,
+        //   style: {
+        //     color: "#E94E32",
+        //   },
+        // },
         {
           skillName: "C++",
           img: < SiCplusplus />,
@@ -372,27 +372,70 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "I've completed multiple internships. I've done projects on my own and I am actively looking for internships and co-op positions. I love learning new things and I'm always looking for new opportunities to grow and improve.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Leadership Experiences",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
-          description:
-          `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+          title: "Mentor",
+          company: "FIRST Robotics - Team 2554",
+          company_url: "https://jpsrobotics2554.org/index.html",
+          logo_path: "first.png",
+          duration: "Oct 2017 - Present",
+          location: "Edison, New Jersey",
+          description: [
+          `• Previously held positions include Safety Captain (10th), Electrical Captain (11th), Build President (12th) `, 
+          `• Made executive decisions for the team through my positions, from both an organizational and an engineering standpoint`,
+          `• Organized summer workshops for 3600+ younger members of the community in basics of Arduinos and Computer Science`,
+          `• As the President, led the team to Global Innovation Finals (Top 2% of Innovation Submissions) with our project VisualEyes: 
+          an AI-powered hat to aid the visually impaired with navigation to provide them with physical safety and mental security`,
+          `• As a Mentor, providing both technical and organizational advice that makes the team run more efficiently`,
+          `• Technical skills utilized: Java, Electrical & Mechanical Engineering, Arduinos, Strategic Alliances, etc` ],
+          color: "#0071C5",
+        },
+        {
+          title: "Founder, Chief Executive Officer, Chief Technology Officer",
+          company: "InVisionAR",
+          company_url: "https://jpsrobotics2554.org/index.html",
+          logo_path: "invisionar.png",
+          duration: "Jul 2020 - Present",
+          location: "Edison, New Jersey",
+          description: [
+          `• Founded organization dedicated to developing free, open-source software for visual learning; led technical aspect`, 
+          `• Received over 70 student applicants for our internship program from 4 continents, 12 countries, and over 45 cities`,
+          `• Technical skills utilized: Unity3D, C#, Git, React.js, Augmented Reality, PostgreSQL, Agile Methodology etc` ],
+          color: "#0071C5",
+        },
+        {
+          title: "Research Team Lead",
+          company: "New Jersey’s Governor STEM Scholars",
+          company_url: "https://www.govstemscholars.com/",
+          logo_path: "njgovstem.png",
+          duration: "Nov 2021 - May 2022",
+          location: "Chatham, New Jersey",
+          description: [
+          `• Accepted as one of the top 12% of applicants for proposing a scientific, impactful research project`, 
+          `• Leading a team of students under the Research & Development Council of New Jersey on conducting research with the 
+          aims of minimizing food waste and improving Food Bank pipeline in local communities`,
+          `• Technical skills utilized: React.js, Node.js, MySQL, Git, Systems Integration, Database Emulation etc.` ],
+          color: "#0071C5",
+        },
+        {
+          title: "Programming Sub-Captain",
+          company: "NJIT VEX Robotics Team",
+          company_url: "https://www.govstemscholars.com/",
+          logo_path: "vex.png",
+          duration: "Sep 2021 - Present",
+          location: "Newark, New Jersey",
+          description: [
+          `• Previously held positions include Mechanical Sub-Captain (’21-’22)`,
+          `• Leading the design and construction of mobile goal related mechanisms and taking charge of the 15-inch robot`, 
+          `• Implementing the usage of decision matrices and making contributions to the Engineering Notebook to enhance the 
+          present’s and future’s decision making process`,
+          `• Using Agile methodologies to enhance and ease the workflow of our award-winning team`,
+          `• Technical skills utilized: Mechanical Engineering, C++ Programming, Inventor CAD, Agile Workflow, etc.` ],
           color: "#0071C5",
         },
       ],
@@ -401,14 +444,14 @@ const experience = {
       title: "Industry Experiences",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
+          title: "Electrical Engineer, Business Outreach",
+          company: "NASA L’SPACE Mission Concept Academy",
+          company_url: "https://www.lspace.asu.edu/",
           logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          duration: "Sep 2021 - Dec 2021",
+          location: "Tempe, Arizona",
+          description: [
+            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck." ],
           color: "#4285F4",
         },
       ],
@@ -423,8 +466,8 @@ const experience = {
           logo_path: "cwoc.png",
           duration: "Feb 2021 - Present",
           location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          description: [
+            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck." ],
           color: "#4285F4",
         },
       ],
@@ -439,8 +482,8 @@ const experience = {
           logo_path: "cwoc.png",
           duration: "Feb 2021 - Present",
           location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          description: [
+            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck." ],
           color: "#4285F4",
         },
       ],
@@ -467,8 +510,8 @@ const contactPageData = {
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-    link: "https://twitter.com/Harikrushn9",
+      "I often blog the progress of my projects and how I am improving. You can find them here.",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
 };
