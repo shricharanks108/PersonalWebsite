@@ -43,9 +43,9 @@ const greeting = {
   title2: "Shricharan",
   logo_name: ":)",
   nickname: "Shri",
-  full_name: "Shricharan K.S.",
+  full_name: "Shricharan K.S",
   subTitle:
-    "Student, Engineer, Developer.",
+    "\nStudent, Engineer, Developer.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
   mail: "mailto:shricharanks108@gmail.com",
@@ -314,13 +314,13 @@ const degrees = {
       key: 0,
       title: "New Jersey Institute of Technology",
       subtitle: "B.S. Computer Engineering || Albert Dorman Honors College",
-      logo_path: "ssec.png",
+      logo_path: "njit.png",
       alt_name: "NJIT",
       duration: "2021 - Present",
       descriptions: [
         "⚡ GPA: 4.0/4.0",
         "⚡ I'm currently pursuing my Bachelor of Science in Computer Engineering.",
-        "⚡ The Honors College contains the top 6% of incoming students",
+        "⚡ The Honors College contains the top 6% of incoming students, and I recieved a full-ride scholarship (covering both tuition and housing expenses) to the university.",
       ],
       website_link: "https://www.njit.edu/",
     },
@@ -328,7 +328,7 @@ const degrees = {
       key: 1,
       title: "John P. Stevens High School",
       subtitle: "High School Diploma",
-      logo_path: "ssgandhy.png",
+      logo_path: "jps.png",
       alt_name: "JPS",
       duration: "2017 - 2021",
       descriptions: [
@@ -355,62 +355,6 @@ const certifications = {
       // color_code: "#2AAFED",
       color_code: "#47A048",
     },
-    {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
-    },
-    {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
-    },
-    {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
-    },
-    {
-      title: "Hack20",
-      subtitle: "Flutter International Hackathon",
-      logo_path: "flutter.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-      alt_name: "Flutter International Hackathon",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
     // color_code: "#8C151599",
     // color_code: "#7A7A7A",
     // color_code: "#0C9D5899",
@@ -432,7 +376,7 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Leadership Experiences",
       experiences: [
         {
           title: "Full Stack Developer (Intern)",
@@ -451,24 +395,10 @@ const experience = {
             // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description:
-          `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
-        }
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Industry Experiences",
       experiences: [
         {
           title: "Cross Winter of Code Mentor",
@@ -481,59 +411,37 @@ const experience = {
             "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
           color: "#4285F4",
         },
+      ],
+    },
+    {
+      title: "Research Experiences",
+      experiences: [
         {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description: "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-          "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
+          title: "Cross Winter of Code Mentor",
+          company: "CWOC",
+          company_url: "https://crosswoc.ieeedtu.in/",
+          logo_path: "cwoc.png",
           duration: "Feb 2021 - Present",
           location: "Work From Home",
           description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
+            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          color: "#4285F4",
         },
+      ],
+    },
+    {
+      title: "Volunteer Experiences",
+      experiences: [
         {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
+          title: "Cross Winter of Code Mentor",
+          company: "CWOC",
+          company_url: "https://crosswoc.ieeedtu.in/",
+          logo_path: "cwoc.png",
+          duration: "Feb 2021 - Present",
           location: "Work From Home",
           description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
+            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+          color: "#4285F4",
         },
       ],
     },
