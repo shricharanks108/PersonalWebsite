@@ -546,14 +546,30 @@ const experience = {
       title: "Volunteer Experiences",
       experiences: [
         {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
+          title: "Volunteer Teacher (50 hours/year)",
+          company: "International Tamil Academy (Thiruvalluvar Tamil School)",
           company_url: "https://crosswoc.ieeedtu.in/",
           logo_path: "cwoc.png",
           duration: "Feb 2021 - Present",
           location: "Work From Home",
           description: [
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck." ],
+            "• After graduating from the highest offered level, chose to contribute back and teach the language to future students",
+            `• First student to return as a Volunteer Teacher at the organization - inspired other students from my own class and from future graduating classes to teach as well`,
+            `• Passionate about the language and the culture; wanted to provide students with an exciting and immersive experience`,
+            `• Previous teachers, through all different levels, were proud to say that I had once been their student`, ],
+          color: "#4285F4",
+        },
+        {
+          title: "Library Aide (4 years x 280 hours/year)",
+          company: "John P. Stevens High School Library",
+          company_url: "https://crosswoc.ieeedtu.in/",
+          logo_path: "cwoc.png",
+          duration: "Feb 2021 - Present",
+          location: "Work From Home",
+          description: [
+            "• Volunteered at school library and helped those who needed help with anything (finding books, printing, etc)",
+            "• Managed and reorganized the libraries resources in order to more efficiently serve those who came to the library",
+            "• Worked to redesign the website and make it more interactive and organized during the remote schooling phase" ],
           color: "#4285F4",
         },
       ],
@@ -573,7 +589,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "shriks.jpeg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
