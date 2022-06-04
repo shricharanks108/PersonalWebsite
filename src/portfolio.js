@@ -29,6 +29,8 @@ import { SiDocker } from 'react-icons/si'
 import { SiGithubactions } from 'react-icons/si'
 import { SiPython } from 'react-icons/si'
 import { SiTypescript } from 'react-icons/si'
+import { SiUnity } from 'react-icons/si'
+import { SiExpress } from 'react-icons/si'
 
 // Website related settings
 const settings = {
@@ -218,6 +220,13 @@ const skills = {
         {
           skillName: "C#",
           img: < SiCsharp />,
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          skillName: "Unity",
+          img: < SiUnity />,
           style: {
             color: "#E94E32",
           },
@@ -530,7 +539,7 @@ const experience = {
           company: "NJIT - Ubiquitous Networking and Intelligent Computing System (UNICS) Lab",
           company_url: "https://tao-han-njit.netlify.app/project/",
           logo_path: "njit.png",
-          duration: "Feb 2021 - Present",
+          duration: "Nov 2021 - Present",
           location: "Newark, New Jersey",
           description: [
             "• Working in an National Science Foundation funded research project involving IoT network integration of smart cameras and Augmented Reality",
@@ -548,10 +557,10 @@ const experience = {
         {
           title: "Volunteer Teacher (50 hours/year)",
           company: "International Tamil Academy (Thiruvalluvar Tamil School)",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          company_url: "https://www.catamilacademy.org/",
+          logo_path: "ita.jpg",
+          duration: "Sep 2019 - Present",
+          location: "Edison, New Jersey",
           description: [
             "• After graduating from the highest offered level, chose to contribute back and teach the language to future students",
             `• First student to return as a Volunteer Teacher at the organization - inspired other students from my own class and from future graduating classes to teach as well`,
@@ -562,10 +571,10 @@ const experience = {
         {
           title: "Library Aide (4 years x 280 hours/year)",
           company: "John P. Stevens High School Library",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
+          company_url: "https://jps.edison.k12.nj.us/",
+          logo_path: "jps.png",
+          duration: "Sep 2017 - Jun 2021",
+          location: "Edison, New Jersey",
           description: [
             "• Volunteered at school library and helped those who needed help with anything (finding books, printing, etc)",
             "• Managed and reorganized the libraries resources in order to more efficiently serve those who came to the library",
@@ -606,10 +615,89 @@ const projects = {
   data: [
     {
       id: "0",
-      name: "AutomateInstaPyBot",
-      url: "https://github.com/harikanani/AutomateInstaPyBot",
-      description: "This is Instagram Bot. This will login to your Instagram account. Follow Users, Unfollow Users, Remove Profile Photo",
+      name: "Stock Track",
+      url: "https://github.com/shricharanks108/stock-track",
+      description:
+        "A web application that allows food banks to monitor their inventory and minimize food waste. It also allows customers to place orders and volunteers to fulfill those orders.",
       languages: [
+        {
+          name: "HTML5",
+          img: < SiHtml5 />,
+        },
+        {
+          name: "CSS3",
+          img: < SiCss3 />,
+        },
+        {
+          name: "React",
+          img: < SiReact />,
+        },
+        {
+          name: "Javascript",
+          img: < SiJavascript />,
+        },
+        {
+          name: "MySQL",
+          img: < SiMysql />,
+        },
+      ],
+    },
+    {
+      id: "1",
+      name: "JavaSnakeGame",
+      url: "https://github.com/shricharanks108/JavaSnakeGame",
+      description: "My initial attempt at the classic game of Snake when I had just started coding.      ",
+      languages: [
+        {
+          name: "Java",
+          img: < SiJava />,
+        },
+      ],
+    },
+    {
+      id: "2",
+      name: "Casino Game",
+      url: "https://github.com/shricharanks108/JavaSnakeGame",
+      description: "My friends and I developed Slots, Poker, and Blackjack in Java as a Hackathon Project and Final Class Project.",
+      languages: [
+        {
+          name: "Java",
+          img: < SiJava />,
+        },
+      ],
+    },
+    {
+      id: "3",
+      name: "UnityZeldaStyleProject",
+      url: "https://github.com/shricharanks108/UnityZeldaStyleProject",
+      description:
+        "Experimenting and Learning Unity with a Zelda-styled Game",
+      languages: [
+        {
+          name: "Unity",
+          img: < SiUnity />,
+        },
+        {
+          name: "C#",
+          img: < SiCsharp />,
+        },
+      ],
+    },
+    {
+      id: "4",
+      name: "DecAR",
+      url: "https://github.com/shricharanks108/DecAR",
+      description:
+        "Unity Project to allow users to place Household Decor in AR and VR",
+      languages: [
+        {
+          name: "Unity",
+          img: < SiUnity />,
+        },
+        {
+          name: "C#",
+          img: < SiCsharp />,
+        },
         {
           name: "Python",
           img: < SiPython />,
@@ -617,103 +705,67 @@ const projects = {
       ],
     },
     {
-      id: "1",
-      name: "react-twitter-clone",
-      url: "https://github.com/harikanani/react-twitter-clone",
+      id: "5",
+      name: "ReTale",
+      url: "https://github.com/SaiVedagiri/ReTale",
       description:
-        "A React Twitter Clone UI with basic functionality such as make a Tweet.Embedded Profile Tweets and Share on Twitter.",
-      languages: [
-        {
-          name: "HTML5",
-          img: < SiHtml5 />,
-        },
-        {
-          name: "CSS3",
-          img: < SiCss3 />,
-        },
-        {
-          name: "React",
-          img: < SiReact />,
-        },
-        {
-          name: "Firebase",
-          img: < SiFirebase />,
-        },
-      ],
-    },
-    {
-      id: "2",
-      name: "node-blockchain",
-      url: "https://github.com/harikanani/node-blockchain",
-      description:
-        "A simple blockchain and cryptocurrency wallet implemented in Node.js and TypeScript (for learning purposes).",
+        "ReTale is a mobile application that uses a Wi-Fi based navigational system to help consumers find products in a grocery store.",
       languages: [
         {
           name: "NodeJS",
           img: < SiNodedotjs />,
         },
         {
-          name: "TypeScript",
-          img: < SiTypescript />,
-        },
-      ],
-    },
-    {
-      id: "3",
-      name: "top-crypto-gainers",
-      url: "https://github.com/harikanani/top-crypto-gainers",
-      description:
-        "A top high price changed crypto coins wring 24 hoursA sound-classifier webapp made with ReactJS + TensorflowJS.",
-      languages: [
-        {
-          name: "HTML5",
-          img: < SiHtml5 />,
-        },
-        {
-          name: "CSS3",
-          img: < SiCss3 />,
-        },
-        {
-          name: "React",
-          img: < SiReact />,
-        },
-        {
-          name: "Javascript",
-          img: < SiJavascript />,
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "personal-portfolio",
-      url: "https://github.com/harikanani/personal-portfolio",
-      description:
-        "A simple command line interface based quiz app to know more about me :).",
-      languages: [
-        {
-          name: "Javascript",
+          name: "JavaScript",
           img: < SiJavascript />,
         },
         {
-          name: "NodeJS",
-          img: < SiNodedotjs />,
+          name: "Flutter",
+          img: < SiFlutter />,
+        },
+        {
+          name: "Dart",
+          img: < SiDart />,
+        },
+        {
+          name: "Java",
+          img: < SiJava />,
         },
       ],
     },
     {
       id: "5",
-      name: "node_express_crud_api_starter",
-      url: "https://github.com/harikanani/node_express_crud_api_starter",
+      name: "CityScape",
+      url: "https://github.com/sagarreddypatil/hackexeter-travel-app",
       description:
-        "Simple NodeJS Express CRUD Operations API starter.",
+        "CityScape is a redefined travel app allowing users to explore the world around them.",
       languages: [
+        {
+          name: "ExpressJS",
+          img: < SiExpress />,
+        },
         {
           name: "NodeJS",
           img: < SiNodedotjs />,
         },
+        {
+          name: "JavaScript",
+          img: < SiJavascript />,
+        },
+        {
+          name: "Flutter",
+          img: < SiFlutter />,
+        },
+        {
+          name: "Dart",
+          img: < SiDart />,
+        },
+        {
+          name: "MongoDB",
+          img: < SiMongodb />,
+        },
       ],
     },
-    
   ],
 };
 
