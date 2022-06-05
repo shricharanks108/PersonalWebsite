@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import { themes } from "./theme";
 import { GlobalStyles } from "./global";
 import { settings } from "./portfolio";
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga";
 
 function App() {
   // useEffect(() => {
