@@ -8,15 +8,15 @@ import { settings } from "./portfolio";
 import ReactGA from "react-ga";
 
 function App() {
-  // useEffect(() => {
-  //   if (settings.googleTrackingID) {
-  //     // ReactGA.initialize(settings.googleTrackingID, {
-  //     //   testMode: process.env.NODE_ENV === "test",
-  //     // });
-  //     ReactGA.initialize(settings.googleTrackingID);
-  //     ReactGA.send(window.location.pathname + window.location.search);
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (settings.googleTrackingID) {
+      // ReactGA.initialize(settings.googleTrackingID, {
+      //   testMode: process.env.NODE_ENV === "test",
+      // });
+      ReactGA.initialize(settings.googleTrackingID);
+      ReactGA.send(window.location.pathname + window.location.search);
+    }
+  }, []);
   
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
