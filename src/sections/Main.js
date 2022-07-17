@@ -8,10 +8,10 @@ import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 
-
 export default function Main(propss) {
   if (settings.isSplash) {
     console.log("in main.js");
+    console.log(process.env.PUBLIC_URL)
     return (
       <div>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
