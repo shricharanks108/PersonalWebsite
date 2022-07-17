@@ -14,7 +14,7 @@ export default function Main(propss) {
     console.log("in main.js");
     return (
       <div>
-        <BrowserRouter basename="/">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <Routes>
             <Route
               path="/"
