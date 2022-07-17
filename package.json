@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "personalPortfolio",
-  "homepage": "https://www.shricharanks.com",
+  "homepage": "http://www.shricharanks.com",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
@@ -22,6 +22,7 @@
     "glamor": "^2.20.40",
     "node-fetch": "^3.2.4",
     "node-sass": "^7.0.1",
+    "nth-check": "^1.0.2",
     "react": "^17.0.2",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^17.0.2",
@@ -34,8 +35,7 @@
     "react-scripts": "^5.0.0",
     "styled-components": "^5.3.5",
     "styletron-engine-atomic": "^1.4.8",
-    "styletron-react": "^6.0.2",
-    "nth-check": "^1.0.2"
+    "styletron-react": "^6.0.2"
   },
   "devDependencies": {
     "@iconify/icons-logos": "^1.1.5",
