@@ -766,6 +766,27 @@ const projects = {
         },
       ],
     },
+    {
+      id: "6",
+      name: "self-driving-simulation",
+      url: "https://github.com/shricharanks108/self-driving-simulation",
+      description:
+        "A neural network system recieving inputs from simulated sensors on a self-driving car.",
+      languages: [
+        {
+          name: "JavaScript",
+          img: < SiJavascript />,
+        },
+        {
+          name: "HTML5",
+          img: < SiHtml5 />,
+        },
+        {
+          name: "CSS3",
+          img: < SiCss3 />,
+        },
+      ],
+    },
   ],
 };
 
