@@ -49,7 +49,7 @@ const greeting = {
   subTitle:
     "\nStudent, Engineer, Developer.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "",
   mail: "mailto:shricharanks108@gmail.com",
 };
 
