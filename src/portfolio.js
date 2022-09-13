@@ -49,7 +49,7 @@ const greeting = {
   subTitle:
     "\nStudent, Engineer, Developer.",
   resumeLink:
-    "",
+    "https://www.shricharanks.com/#/experience",
   mail: "mailto:shricharanks108@gmail.com",
 };
 
@@ -66,14 +66,14 @@ const socialMediaLinks = {
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "Software Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+        "⚡ Develop highly Backend services and Database Queries for a multitude of applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and Android",
+        "⚡ Designing effective and efficient Data Models",
         "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Automating Workflows using a verity of Tools and Languages"
       ],
       softwareSkills: [
         {
@@ -241,12 +241,12 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Exploration",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
+        "⚡ I love to explore and learn new things",
+        "⚡ Working on exploring all of the industries and becoming inter-disciplinary",
+        "⚡ Applying my skills to all of these different scenarios",
       ],
       softwareSkills: [
         {
@@ -359,7 +359,7 @@ const certifications = {
       subtitle: "MongoDB University",
       logo_path: "mongo.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
+        "",
       alt_name: "MongoDB University",
       // color_code: "#2AAFED",
       color_code: "#47A048",

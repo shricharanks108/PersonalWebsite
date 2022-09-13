@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "personalPortfolio",
-  "homepage": "https://shricharanks108.github.io/PersonalWebsite/",
+  "homepage": "https://www.shricharanks.com/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
