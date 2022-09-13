@@ -32,6 +32,7 @@ const darkTheme = {
   imageClothes: "#000000",
   avatarMisc: "#212121",
   avatarShoes: "#2B2B2B",
+  dangerText: "#FC1056"
 };
 
 export const themes = { light: lightTheme, dark: darkTheme };

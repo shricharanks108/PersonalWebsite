@@ -27,13 +27,12 @@ export default function Greeting(props) {
               <h1 className="greeting-text">{greeting.title}</h1>
               <p
                 className="greeting-text-p subTitle"
-                style={{ color: theme.secondaryText }}
+                style={{ color: theme.secondaryText, marginTop: "50px" }}
               >
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
-
                 {greeting.subTitle}
               </p>
               <SocialMedia />
