@@ -590,7 +590,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Project. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
+    "My projects make use of a vast variety of latest technology tools. My best experience is to create NodeJS Backend Projects, Python Scripts, and React Projects. Below are some of my projects. Note that not all of the mentioned projects are on GitHub yet.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -619,6 +619,8 @@ const projects = {
       url: "https://github.com/shricharanks108/stock-track",
       description:
         "A web application that allows food banks to monitor their inventory and minimize food waste. It also allows customers to place orders and volunteers to fulfill those orders.",
+      features:
+        ["Place orders to be fulfilled by volunteers at the food bank", "Manage team members and access control", "Accurately track inventory of the food bank in order to serve consumers", "Minimize food waste by optimizing the supply/demand curves"],
       languages: [
         {
           name: "HTML5",
@@ -646,7 +648,9 @@ const projects = {
       id: "1",
       name: "JavaSnakeGame",
       url: "https://github.com/shricharanks108/JavaSnakeGame",
-      description: "My initial attempt at the classic game of Snake when I had just started coding.      ",
+      description: "My initial attempt at the classic game of Snake when I had just started coding.",
+      features:
+        ["Swing GUI to visualize the game and play", "Increase size of snake as food is eaten"],
       languages: [
         {
           name: "Java",
@@ -659,6 +663,8 @@ const projects = {
       name: "Casino Game",
       url: "https://github.com/shricharanks108/JavaSnakeGame",
       description: "My friends and I developed Slots, Poker, and Blackjack in Java as a Hackathon Project and Final Class Project.",
+      features:
+        ["Three Programmed Games: BlackJack, Slots and Poker", "Console based experience", "Common Balance to play all three games"],
       languages: [
         {
           name: "Java",
@@ -672,6 +678,11 @@ const projects = {
       url: "https://github.com/shricharanks108/UnityZeldaStyleProject",
       description:
         "Experimenting and Learning Unity with a Zelda-styled Game",
+      features:
+        ["Zelda-like mechanics",
+        "Cool animated scenes",
+        "Path Assigned & Following Enemy AI",
+        "Area/Room Switching Animations"],
       languages: [
         {
           name: "Unity",
@@ -689,6 +700,11 @@ const projects = {
       url: "https://github.com/shricharanks108/DecAR",
       description:
         "Unity Project to allow users to place Household Decor in AR and VR",
+      features:
+        ["Take an Image of Floorplan and Convert to 3D Floorplan",
+        "Add Furniture and Decor within the VR/AR Room",
+        "Allows users to upload 3D Models",
+        "Alicevision Meshroom Integration"],
       languages: [
         {
           name: "Unity",
@@ -710,6 +726,12 @@ const projects = {
       url: "https://github.com/SaiVedagiri/ReTale",
       description:
         "ReTale is a mobile application that uses a Wi-Fi based navigational system to help consumers find products in a grocery store.",
+      features:
+        ["Uses wifi signal strength to triangluate the position of a device/user",
+        "Allows users to navigate the stores and find an optimal path while picking up items on shopping list",
+        "Flutter App provides a nice interface for individuals to follow pathPotential Feature: Add weights for stores to advertise products along the user’s path",
+        "Potential Feature: Add Crowd Control to avoid jams in aisles",
+        "Potential Feature: All Foot Traffic Analytics for stores to optimize product placement"],
       languages: [
         {
           name: "NodeJS",
@@ -739,6 +761,11 @@ const projects = {
       url: "https://github.com/sagarreddypatil/hackexeter-travel-app",
       description:
         "CityScape is a redefined travel app allowing users to explore the world around them.",
+      features:
+        ["Custom Neural Network in Vanilla Javascript", 
+        "Easily modifiable parameters, such as number of sensors, sensor range, traffic patterns, etc",
+        "Creates multiple cars for each generation; allows you to save and train the best model throughout execution",
+        "Potential Feature: Add a dropdown to change Activation Function"],
       languages: [
         {
           name: "ExpressJS",
@@ -772,6 +799,11 @@ const projects = {
       url: "https://github.com/shricharanks108/self-driving-simulation",
       description:
         "A neural network system recieving inputs from simulated sensors on a self-driving car.",
+      features:
+        ["Custom Neural Network in Vanilla Javascript",
+        "Easily modifiable parameters, such as number of sensors, sensor range, traffic patterns, etc.",
+        "Creates multiple cars for each generation; allows you to save and train the best model throughout execution",
+        "Potential Feature: Add a dropdown to change Activation Function"],
       languages: [
         {
           name: "JavaScript",
