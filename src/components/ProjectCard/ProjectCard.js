@@ -11,28 +11,46 @@ function MyVerticallyCenteredModal(props) {
     var win = window.open(url, "_blank");
     win.focus();
   }
+
+  const styles = style({
+    color: props.theme.text,
+    // backgroundColor: props.theme.projectCard,
+  });
+
   return (
     <Modal
       {...props}
+      {...styles}
+
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
     >
-      <Modal.Header closeButton>
+      <Modal.Header closeButton style = {{backgroundColor: props.theme.projectCard, borderBottom: "1px solid " + props.theme.text}}>
         <Modal.Title id="contained-modal-title-vcenter">
           {props.repo.name}
         </Modal.Title>
+        <ProjectLanguages logos={props.repo.languages} />
       </Modal.Header>
-      <Modal.Body>
-        <h4>{props.repo.name}</h4>
-        <p>
+      <Modal.Body style={{ backgroundColor: props.theme.projectCard }}>
+        <h5>Description</h5>
+        <p className="proj-desc">
           {props.repo.description}
         </p>
+        <h5>Features</h5>
+        <p className="proj-desc"><ul>
+          {
+            props.repo.features.map((feature, index) => {
+              return (
+                <li key={index}>{feature}</li>
+              )
+            })
+          }
+        </ul>
+        </p>
       </Modal.Body>
-      <Modal.Footer style={{ justifyContent: "center" }}>
-
+      <Modal.Footer style={{ justifyContent: "center", backgroundColor: props.theme.projectCard, borderTop: "1px solid " + props.theme.text }}>
         <Button onClick={() => openRepoinNewTab(props.repo.url)} style={{ width: "75%" }}>Open in GitHub</Button>
-
       </Modal.Footer>
     </Modal>
   );

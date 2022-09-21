@@ -102,3 +102,11 @@
     font-size: 14px;
   }
 }
+
+.btn-close {
+  margin: 0px !important;
+}
+
+.my-modal .modal-content {
+  background-color: red;
+}

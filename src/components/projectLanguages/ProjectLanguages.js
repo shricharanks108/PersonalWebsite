@@ -4,7 +4,7 @@ import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function ProjectLanguages(props) {
   return (
-    <div>
+    <div style={{ marginLeft: "auto", marginRight: "0"}}>
       <div className="software-skills-main-div">
         <ul className="dev-icons-languages">
           {props.logos.map((logo) => {
