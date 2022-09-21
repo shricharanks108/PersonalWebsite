@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea3eebd3.css",
-    "main.js": "/static/js/main.43cd9c69.js",
+    "main.css": "/static/css/main.d99054dc.css",
+    "main.js": "/static/js/main.8e2ca525.js",
     "static/media/localguide.gif": "/static/media/localguide.e26297ddb1866fabed6a.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.33f11e8e33e406b0dc21.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.5f2a2f236048660df440.svg",
@@ -50,11 +50,11 @@
     "static/media/buld.jpg": "/static/media/buld.55444b9789a64f32e2e5.jpg",
     "static/media/mlh-logo.svg": "/static/media/mlh-logo.d48e27dc116c04b190de.svg",
     "index.html": "/index.html",
-    "main.ea3eebd3.css.map": "/static/css/main.ea3eebd3.css.map",
-    "main.43cd9c69.js.map": "/static/js/main.43cd9c69.js.map"
+    "main.d99054dc.css.map": "/static/css/main.d99054dc.css.map",
+    "main.8e2ca525.js.map": "/static/js/main.8e2ca525.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea3eebd3.css",
-    "static/js/main.43cd9c69.js"
+    "static/css/main.d99054dc.css",
+    "static/js/main.8e2ca525.js"
   ]
 }
