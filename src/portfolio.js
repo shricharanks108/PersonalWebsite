@@ -325,9 +325,9 @@ const degrees = {
       subtitle: "B.S. Computer Engineering || Albert Dorman Honors College",
       logo_path: "njit.png",
       alt_name: "NJIT",
-      duration: "2021 - Present",
+      duration: "2021 - 2025",
       descriptions: [
-        "⚡ GPA: 4.0/4.0",
+        "⚡ GPA: 3.991/4.0",
         "⚡ I'm currently pursuing my Bachelor of Science in Computer Engineering.",
         "⚡ The Honors College contains the top 6% of incoming students, and I recieved a full-ride scholarship (covering both tuition and housing expenses) to the university.",
       ],
@@ -388,6 +388,24 @@ const experience = {
       title: "Leadership Experiences",
       experiences: [
         {
+          title: "Vice President & Programming Sub-Captain",
+          company: "NJIT Robotics Club + VEX U Team",
+          company_url: "https://www.roboticsclub.njit.edu/",
+          logo_path: "vex.png",
+          duration: "Sep 2021 - Present",
+          location: "Newark, New Jersey",
+          description: [
+          `• Working on the robot’s odometry system, auto-aim functionality, autonomous pathing, and other features of VEX U`,
+          `• Implementing the usage of decision matrices and making contributions to the Engineering Notebook to enhance the 
+          present’s and future’s decision making process`,
+          `• Won Excellence Award, Tournament Champions, and Skills Champion at multiple Regional Competitions in 2023`,
+          `• Using Agile methodologies to enhance and ease the workflow of our award-winning team`,
+          `• Previously held positions include Mechanical Sub-Captain (’21-’22)`,
+          `• Lead the design and construction of mobile goal related mechanisms and taking charge of the 15-inch robot`, 
+          `• Technical skills utilized: Mechanical Engineering, C++ Programming, Inventor CAD, Agile Workflow, PID Controller etc.` ],
+          color: "#0071C5",
+        },
+        {
           title: "Mentor",
           company: "FIRST Robotics - Team 2554",
           company_url: "https://jpsrobotics2554.org/index.html",
@@ -405,19 +423,6 @@ const experience = {
           color: "#0071C5",
         },
         {
-          title: "Founder, Chief Executive Officer, Chief Technology Officer",
-          company: "InVisionAR",
-          company_url: "https://jpsrobotics2554.org/index.html",
-          logo_path: "invisionar.png",
-          duration: "Jul 2020 - Present",
-          location: "Edison, New Jersey",
-          description: [
-          `• Founded organization dedicated to developing free, open-source software for visual learning; led technical aspect`, 
-          `• Received over 70 student applicants for our internship program from 4 continents, 12 countries, and over 45 cities`,
-          `• Technical skills utilized: Unity3D, C#, Git, React.js, Augmented Reality, PostgreSQL, Agile Methodology etc` ],
-          color: "#0071C5",
-        },
-        {
           title: "Research Team Lead",
           company: "New Jersey’s Governor STEM Scholars",
           company_url: "https://www.govstemscholars.com/",
@@ -432,19 +437,16 @@ const experience = {
           color: "#0071C5",
         },
         {
-          title: "Programming Sub-Captain",
-          company: "NJIT VEX Robotics Team",
-          company_url: "https://www.govstemscholars.com/",
-          logo_path: "vex.png",
-          duration: "Sep 2021 - Present",
-          location: "Newark, New Jersey",
+          title: "Founder, Chief Executive Officer, Chief Technology Officer",
+          company: "InVisionAR",
+          company_url: "",
+          logo_path: "invisionar.png",
+          duration: "Jul 2020 - Present",
+          location: "Edison, New Jersey",
           description: [
-          `• Previously held positions include Mechanical Sub-Captain (’21-’22)`,
-          `• Leading the design and construction of mobile goal related mechanisms and taking charge of the 15-inch robot`, 
-          `• Implementing the usage of decision matrices and making contributions to the Engineering Notebook to enhance the 
-          present’s and future’s decision making process`,
-          `• Using Agile methodologies to enhance and ease the workflow of our award-winning team`,
-          `• Technical skills utilized: Mechanical Engineering, C++ Programming, Inventor CAD, Agile Workflow, etc.` ],
+          `• Founded organization dedicated to developing free, open-source software for visual learning; led technical aspect`, 
+          `• Received over 70 student applicants for our internship program from 4 continents, 12 countries, and over 45 cities`,
+          `• Technical skills utilized: Unity3D, C#, Git, React.js, Augmented Reality, PostgreSQL, Agile Methodology etc` ],
           color: "#0071C5",
         },
       ],
@@ -452,6 +454,47 @@ const experience = {
     {
       title: "Industry Experiences",
       experiences: [
+        {
+          title: "START Technology Intern (Software Engineering)",
+          company: "Bank of New York Mellon (Pershing)",
+          company_url: "https://www.pershing.com/",
+          logo_path: "bnymellon.png",
+          duration: "Jun 2023 - Aug 2023",
+          location: "Jersey City, New Jersey",
+          description: [
+            "• Incoming Intern at BNY Mellon to explore and learn more about the Financial World and Financial Technology from the “bank of banks” over the course of their 10-week Summer Internship Program", 
+            "• Going to work on designing efficient workflow for big data batch processing modules in Cost Basis Application to optimally run in parallel and have streamlined based on module dependencies with the goal of reducing end to end processing time by 50% and efficiently monitor and notify.",],
+          color: "#4285F4",
+        },
+        {
+          title: "Software Engineering + Data Co-Op Associate",
+          company: "Prudential Financial",
+          company_url: "https://www.prudential.com/",
+          logo_path: "prudential.png",
+          duration: "Feb 2023 - May 2023",
+          location: "Newark, New Jersey",
+          description: [
+            "• Working with the Actuarial Modeling Platforms team, optimizing the workflow and version control for Actuaries", 
+            "• Developing and Improving their Model Versioning Tool, to help store and organize different stochastic model executions and results with varied parameters for models such as VM20, FAS97, etc run in Enterprise Poly Workflow Processor",
+            "• Application utilized by actuaries across various International Business Units and Products",
+            `• Technical skills utilized: Python, Scrum, Artifactory, Git, PolySystems, AWS, Confluence, BitBucket, JIRA etc.`, ],
+          color: "#4285F4",
+        },
+        {
+          title: "Web Engineering Intern",
+          company: "Avis Budget Group",
+          company_url: "https://avisbudgetgroup.com/",
+          logo_path: "avis.png",
+          duration: "Jun 2022 - Feb 2023",
+          location: "Parsippany, New Jersey",
+          description: [
+            "• Designed a customer-facing Search and Suggestion algorithm implementing a composite ranking system, involving Weighted Full Text Search and Trigram Similarity Scores using PostgreSQL and Node.js", 
+            "• Presented the solution and demo to International Product Stakeholders, who determined that this solution would be implemented into production during the current AWS Transformation phase",
+            "• Optimized the solution to improve response times by over 70% and reduce redundant data by over 50%",
+            "• Participated in a Capstone Project, where our team presented a Web-based Vehicle Return Process tool to the Senior Leadership that would eliminate overcharging and unclaimed damages, influencing the Net Promoter Score by 15 pts",
+            `• Technical skills utilized: React.js, Node.js, PostgreSQL, AWS, Docker, Kubernetes, CI/CD Pipeline, Confluence, etc.`, ],
+          color: "#4285F4",
+        },
         {
           title: "Electrical Engineer, Business Outreach",
           company: "NASA L’SPACE Mission Concept Academy",
@@ -493,23 +536,26 @@ const experience = {
             `• Technical skills utilized: Web Automation, HTML, Java, Javascript, Robotic Process Automation, Version Control, etc.`, ],
           color: "#4285F4",
         },
-        {
-          title: "Web Engineering Intern",
-          company: "Avis Budget Group",
-          company_url: "https://avisbudgetgroup.com/",
-          logo_path: "avis.png",
-          duration: "Jun 2022 - Present",
-          location: "Parsippany, New Jersey",
-          description: [
-            "• Working in this 10-week internship, gaining experience in both Frontend and Backend development", 
-            `• Technical skills utilized: Frontend Development, Backend Development`, ],
-          color: "#4285F4",
-        },
+        
       ],
     },
     {
       title: "Research Experiences",
       experiences: [
+        {
+          title: "Undergraduate Researcher",
+          company: "NJIT - Ubiquitous Networking and Intelligent Computing System (UNICS) Lab",
+          company_url: "https://tao-han-njit.netlify.app/project/",
+          logo_path: "njit.png",
+          duration: "Nov 2021 - Present",
+          location: "Newark, New Jersey",
+          description: [
+            "• Working in an National Science Foundation funded research project involving IoT network integration of smart cameras and Augmented Reality",
+            `• Application built for the Microsoft Hololens 2 to do real-time object recognition by off-loading processing - required optimizations at a hardware interfacing level (low-level programming)`,
+            `• Developing and refining the prototyped application`,
+            `• Technical skills utilized: Microsoft HoloLens, Unity, C#, Universal Windows Platform, Jetpack, OpenCV, NVIDIA Jetson, etc`, ],
+          color: "#4285F4",
+        },
         {
           title: "Student Researcher",
           company: "Rutgers University",
@@ -532,21 +578,6 @@ const experience = {
           description: [
             `• With Professor Jafari: Worked on new traffic simulations for Smart Transportation by controlling various variables to discover possible optimizations`, 
             `• Technical skills utilized: Data Analytics, Python, PTV VISSIM, etc.` ],
-          color: "#4285F4",
-        },
-        {
-          title: "Undergraduate Researcher",
-          company: "NJIT - Ubiquitous Networking and Intelligent Computing System (UNICS) Lab",
-          company_url: "https://tao-han-njit.netlify.app/project/",
-          logo_path: "njit.png",
-          duration: "Nov 2021 - Present",
-          location: "Newark, New Jersey",
-          description: [
-            "• Working in an National Science Foundation funded research project involving IoT network integration of smart cameras and Augmented Reality",
-            `• Application built using the Microsoft Hololens, a distributed database, network server, audio recognition, and vision 
-            systems`,
-            `• Developing and refining the prototyped application`,
-            `• Technical skills utilized: Jetpack, OpenCV, Redis, HoloLens, NVIDIA Jetson, C++, Unreal Engine, Augmented Reality, etc`, ],
           color: "#4285F4",
         },
       ],
@@ -599,7 +630,7 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "shriks.jpeg",
-    description:
+    description: 
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
   blogSection: {
